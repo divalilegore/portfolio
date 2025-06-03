@@ -1,0 +1,97 @@
+baseURL: "https://hannahismael/hannahismael/" 
+title: "Hannah Ismael"
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+
+taxonomies:
+    tag: tags
+
+menu:
+    main:
+        - name: Publications
+          url: papers/
+          weight: 1 
+        - name: Projects
+          url: books/
+          weight: 2
+        - name: CV
+          url: /feb2025_cv.pdf
+          weight: 3
+        - name: Personal Interests
+          url: personal/
+          weight: 4 
+    
+
+params:
+    description: "I am primarily interested in the interplay between public interest issues—privacy, transparency, and security—and market dynamics in AI systems. I enjoy conceptualizing solutions that increase access to AI supply chain resources and prioritize public interest within AI governance frameworks. To support these goals, I’m excited to explore changes to antitrust law, intellectual property doctrine, and public policy."
+    author: Hannah Ismael
+    # googleAnalyticsID: "G-XXXXX"
+    DateFormat: "January 2006"
+    defaultTheme: light
+    hideFooter: false
+    disableThemeToggle: true
+    ShowShareButtons: false
+    ShowReadingTime: false
+    disableSpecial1stPost: true
+    disableAnchoredHeadings: true
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: false
+    ShowCodeCopyButtons: true
+    ShowAllPagesInArchive: false
+    #MainSections: ["publications","projects","CV","personal"]
+    ShowToc: false
+    disableScrollToTop: true
+    TocOpen: true
+    ShowWordCount: false
+    UseHugoToc: true
+    comments: false
+    math: true
+    profileMode:
+          enabled: true
+          title: "Hannah Ismael"
+          subtitle: "I am primarily interested in the interplay between public interest issues—privacy, transparency, and security—and market dynamics in AI systems. I enjoy conceptualizing solutions that increase access to AI supply chain resources and prioritize public interest within AI governance frameworks. To support these goals, I’m excited to explore changes to antitrust law, intellectual property doctrine, and public policy."
+          imageUrl: "picture.jpeg"
+          imageWidth: 160
+          imageHeight: 160
+          buttons:
+            - name: Publications
+              url: papers/
+            - name: Projects
+              url: books/
+            - name: CV
+              url: /hugo-website/feb2025_cv.pdf
+            - name: Personal Interests
+              url: personal/
+        
+    socialIcons:
+        - name: Linkedin
+          url: https://www.linkedin.com/in/hannah-ismael-55bab420b/
+        - name: Email
+          url: mailto:hannahismael42@berkeley.edu
+        - name: Google Scholar
+          url: https://scholar.google.com/citations?user=4T2VgpwAAAAJ&hl=en
+      
+
+    assets:
+        disableScrollBarStyle: true
+    cover:
+        hiddenInList: false
+        hiddenInSingle: true
+    label:
+      text: "Hannah Ismael"
+      icon: favicon.ico
+      iconHeight: 18
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        guessSyntax: true
+        style: autumn 
+    tableOfContents:
+        endLevel: 2
+        ordered: false
+        startLevel: 2
