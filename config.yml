@@ -1,32 +1,36 @@
-baseURL: "https://hannahismael/hannahismael/" 
-title: "Hannah Ismael"
+baseURL: "https://divalilegore" 
+title: Divali Legore
 theme: PaperMod
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
+pagination:
+  pagerSize: 20
 
 taxonomies:
     tag: tags
 
 menu:
     main:
-        - name: Publications
-          url: papers/
-          weight: 1 
-        - name: Projects
-          url: books/
-          weight: 2
         - name: CV
-          url: /feb2025_cv.pdf
+          url: CV/
+          weight: 5
+        - name: Publications
+          url: publications/
           weight: 3
-        - name: Personal Interests
-          url: personal/
+        - name: Graphics
+          url: graphics/
+          weight: 4
+        - name: Projects
+          url: projects/
           weight: 4 
-    
+        - name: About Me
+          url: me/
+          weight: 2
 
 params:
-    description: "I am primarily interested in the interplay between public interest issues—privacy, transparency, and security—and market dynamics in AI systems. I enjoy conceptualizing solutions that increase access to AI supply chain resources and prioritize public interest within AI governance frameworks. To support these goals, I’m excited to explore changes to antitrust law, intellectual property doctrine, and public policy."
-    author: Hannah Ismael
+    description: "This website hosts Divali Legore's work portfolio, publications, curriculum vitae, and contact information."
+    author: Divali Legore
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
     defaultTheme: light
@@ -40,7 +44,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    #MainSections: ["publications","projects","CV","personal"]
+    MainSections: ["books","courses","papers","data"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -50,37 +54,36 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: "Hannah Ismael"
-          subtitle: "I am primarily interested in the interplay between public interest issues—privacy, transparency, and security—and market dynamics in AI systems. I enjoy conceptualizing solutions that increase access to AI supply chain resources and prioritize public interest within AI governance frameworks. To support these goals, I’m excited to explore changes to antitrust law, intellectual property doctrine, and public policy."
-          imageUrl: "picture.jpeg"
+          title: Divali Legore
+          subtitle: "I am a financial analyst at the Consumer Financial Protection Bureau. My work primarily focuses on expanding access to youth financial education resources, conducting data analysis for different financial products, and conveying these research findings to various audiences. I graduated from the Georgia Institute of Technology with a degree in Public Policy and minor in Law, Science, and Technology. I have also earned a certificate in Intellectual Property."
+          imageUrl: "CFPB Headshot.jpeg"
           imageWidth: 160
           imageHeight: 160
           buttons:
-            - name: Publications
-              url: papers/
+            - name: About Me
+              url: about/
+            - name: Graphics
+              url: graphics/
             - name: Projects
-              url: books/
+              url: projects/
             - name: CV
-              url: /hugo-website/feb2025_cv.pdf
-            - name: Personal Interests
-              url: personal/
-        
+              url: CV/
+	   - name:About Me
+	   - url: me/
     socialIcons:
-        - name: Linkedin
-          url: https://www.linkedin.com/in/hannah-ismael-55bab420b/
         - name: Email
-          url: mailto:hannahismael42@berkeley.edu
+          url: mailto:divalilegore234@gmail.com
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/divali/
         - name: Google Scholar
-          url: https://scholar.google.com/citations?user=4T2VgpwAAAAJ&hl=en
-      
-
+          url: https://scholar.google.com/citations?user=HWQ-pAgAAAAJ&hl=en
     assets:
         disableScrollBarStyle: true
     cover:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Hannah Ismael"
+      text: "Divali Legore"
       icon: favicon.ico
       iconHeight: 18
 
