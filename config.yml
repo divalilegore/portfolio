@@ -1,0 +1,100 @@
+baseURL: "https://divalilegore.github.io/portfolio/" 
+title: Divali Legore
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+pagination:
+  pagerSize: 20
+
+taxonomies:
+    tag: tags
+
+menu:
+    main:
+        - name: CV
+          url: CV/
+          weight: 5
+        - name: Publications
+          url: publications/
+          weight: 3
+        - name: Graphics
+          url: graphics/
+          weight: 4
+        - name: Projects
+          url: projects/
+          weight: 4 
+        - name: About Me
+          url: me/
+          weight: 2
+
+params:
+    description: "This website hosts Divali Legore's work portfolio, publications, curriculum vitae, and contact information."
+    author: Divali Legore
+    # googleAnalyticsID: "G-XXXXX"
+    DateFormat: "January 2006"
+    defaultTheme: light
+    hideFooter: false
+    disableThemeToggle: true
+    ShowShareButtons: false
+    ShowReadingTime: false
+    disableSpecial1stPost: true
+    disableAnchoredHeadings: true
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: false
+    ShowCodeCopyButtons: true
+    ShowAllPagesInArchive: false
+    MainSections: ["books","courses","papers","data"]
+    ShowToc: false
+    disableScrollToTop: true
+    TocOpen: true
+    ShowWordCount: false
+    UseHugoToc: true
+    comments: false
+    math: true
+    profileMode:
+          enabled: true
+          title: Divali Legore
+          subtitle: "I am a financial analyst at the Consumer Financial Protection Bureau. My work primarily focuses on expanding access to youth financial education resources, conducting data analysis for different financial products, and conveying these research findings to various audiences. I graduated from the Georgia Institute of Technology with a degree in Public Policy and minor in Law, Science, and Technology. I have also earned a certificate in Intellectual Property."
+          imageUrl: "CFPB Headshot.jpeg"
+          imageWidth: 160
+          imageHeight: 160
+          buttons:
+            - name: About Me
+              url: about/
+            - name: Graphics
+              url: graphics/
+            - name: Projects
+              url: projects/
+            - name: CV
+              url: CV/
+            - name:About Me 
+              url: me/
+    socialIcons:
+        - name: Email
+          url: mailto:divalilegore234@gmail.com
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/divali/
+        - name: Google Scholar
+          url: https://scholar.google.com/citations?user=HWQ-pAgAAAAJ&hl=en
+    assets:
+        disableScrollBarStyle: true
+    cover:
+        hiddenInList: false
+        hiddenInSingle: true
+    label:
+      text: "Divali Legore"
+      icon: favicon.ico
+      iconHeight: 18
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        guessSyntax: true
+        style: autumn 
+    tableOfContents:
+        endLevel: 2
+        ordered: false
+        startLevel: 2
