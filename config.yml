@@ -68,8 +68,8 @@ params:
               url: projects/
             - name: CV
               url: CV/
-	   - name:Publications
-	   - url: publications/
+            - name:Publications 
+              url: publications/
     socialIcons:
         - name: Email
           url: mailto:divalilegore234@gmail.com
